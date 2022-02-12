@@ -25,7 +25,7 @@
 > git clone https://github.com/BrunoSobrino/ShadowBotV3
 > cd ShadowBotV3
 > npm install
-> npm install -g npm@8.4.0
+> npm install -g npm@8.5.0
 > npm update
 > npm start
 ```
@@ -42,7 +42,7 @@
 > git clone https://github.com/BrunoSobrino/ShadowBotV3
 > cd ShadowBotV3
 > npm install
-> npm install -g npm@8.4.0
+> npm install -g npm@8.5.0
 > npm update
 > npm start
 ```
