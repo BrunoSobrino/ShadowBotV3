@@ -210,6 +210,9 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ඬ⃟📝️ _${usedPrefix}lolice_
 ┣ ඬ⃟📝️ _${usedPrefix}logos_ 
 ┣ ඬ⃟📝️ _${usedPrefix}simpcard_
+┣ ඬ⃟📝️ _${usedPrefix}logosad_
+┣ ඬ⃟📝️ _${usedPrefix}logogura_ 
+┣ ඬ⃟📝️ _${usedPrefix}logololi_
 ┗━━━━━━━━━━━━━┛
 `.trim()
     let mentionedJid = [who]
