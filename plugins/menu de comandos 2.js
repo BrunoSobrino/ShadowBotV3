@@ -2,6 +2,7 @@
 //PUEDES AGREGAR OTRA FILAS DE PAYPAL, GRUPOS, PERO DEJA ALGUNOS CREDITOS, YA QUE ES LA UNICA MANERA DE INGRESOS DEL BOT
 //SI VAS A MODIFICAR TODO Y HACER PASAR COMO SI FUERA TU BOT (CREADO POR TI) SOLO TE PIDO QUE SI ESTA EN TUS POSIBILIDADES DONES UN POCO
 //LLEVO AL REDEDOR DE 1 AÑO Y MEDIO EN LA ELABORACION DE ESTE BOT, SI TU LO EDITAS EN UNA SEMANA NO ERES TU EL CREADOR, SI LO EDITAS TOTALMENTE A TU MANERA SERIA UTULIZADO MI BOT COMO BASE Y AHI SI LO SERIAS  
+
 let fs = require('fs')
 let fetch = require('node-fetch')
 let moment = require('moment-timezone')
@@ -281,9 +282,9 @@ let menu =`
 ┣ ඬ⃟📝️ _${usedPrefix}lolice *@tag*_
 ┣ ඬ⃟📝️ _${usedPrefix}logos_ (lista)
 ┣ ඬ⃟📝️ _${usedPrefix}simpcard *@tag*_
-┣ ඬ⃟📝️ _${usedPrefix}logosad *texto*_
 ┣ ඬ⃟📝️ _${usedPrefix}logogura *texto*_ 
 ┣ ඬ⃟📝️ _${usedPrefix}logololi *texto*_
+┣ ඬ⃟📝️ _${usedPrefix}logosad *texto1|texto2*_
 ┗━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━┓
 ┃ *<PROPIETARO DEL BOT/>*
@@ -292,8 +293,10 @@ let menu =`
 ┣ ඬ⃟👑 _${usedPrefix}restart_
 ┣ ඬ⃟👑 _${usedPrefix}banlist_
 ┣ ඬ⃟👑 _${usedPrefix}virtext1_
+┣ ඬ⃟👑 _${usedPrefix}banchat2_
 ┣ ඬ⃟👑 _${usedPrefix}actualizar_
 ┣ ඬ⃟👑 _${usedPrefix}CajaFuerte_
+┣ ඬ⃟👑 _${usedPrefix}unbanchat2_
 ┣ ඬ⃟👑 _${usedPrefix}bc *texto*_
 ┣ ඬ⃟👑 _${usedPrefix}bcgc *texto*_
 ┣ ඬ⃟👑 _${usedPrefix}bcbot *texto*_
@@ -316,6 +319,6 @@ conn.send3ButtonImg(m.chat, pp, menu, '©The Shadow Brokers - Bot', '𝙼𝙴�
 //ptt: true 
 //})
 }
-handler.command = /^(menu|menú|memu|memú|help|info|comandos|allmenu|2help|menu1.2)$/i
+handler.command = /^(menu|menú|memu|memú|help|info|comandos|allmenu|2help|menu1.2|ayuda|commands|commandos)$/i
 handler.fail = null
 module.exports = handler
