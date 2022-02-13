@@ -7,7 +7,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 let pp = './Menu2.jpg'
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 let username = conn.getName(who)
-let vn = './media/mariana.mp3'
+//let vn = './media/mariana.mp3'
 let menu =`
 ╭══〘 ✯✯✯✯✯✯✯✯ 〙═╮
 ║═ *𝐓𝐡𝐞 𝐒𝐡𝐚𝐝𝐨𝐰 𝐁𝐫𝐨𝐤𝐞𝐫𝐬 - 𝐁𝐨𝐭*
@@ -31,7 +31,6 @@ let menu =`
 ┣ ඬ⃟ℹ️ _${usedPrefix}reglas_
 ┣ ඬ⃟ℹ️ _${usedPrefix}menusimple_
 ┣ ඬ⃟ℹ️️ _${usedPrefix}menuaudios_
-┣ ඬ⃟ℹ️️ _${usedPrefix}menu1.2_
 ┣ ඬ⃟ℹ️️ _${usedPrefix}menu2_
 ┣ ඬ⃟ℹ️️ _${usedPrefix}labiblia_
 ┣ ඬ⃟ℹ️ _${usedPrefix}estado_
