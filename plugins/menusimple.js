@@ -23,6 +23,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┏━━━━━━━━━━━━━┓
 ┃ *<MENU SIMPLE/>*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+┣ ඬ⃟ℹ️️ _${usedPrefix}sc_
 ┣ ඬ⃟ℹ️️ _${usedPrefix}donar_
 ┣ ඬ⃟ℹ️️ _${usedPrefix}infobot_
 ┣ ඬ⃟ℹ️️ _${usedPrefix}grupos_
