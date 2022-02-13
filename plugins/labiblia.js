@@ -78,6 +78,6 @@ type: 'audioMessage',
 ptt: true 
 })
 }}
-handler.command = /^(labiblia2)$/i
+handler.command = /^(labiblia)$/i
 handler.fail = null
 module.exports = handler
