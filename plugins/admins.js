@@ -16,15 +16,15 @@ let handler = async (m, { conn, participants, groupMetadata, args }) => {
         //let { isBanned, welcome, antivirtex, detect, sWelcome, sBye, sPromote, sDemote, antiLink } = global.DATABASE.data.chats[m.chat]
         const groupAdmins = getGroupAdmins(participants)
         let pesan = args.join` `
-        let oi = `Mensaje: ${pesan}`
+        let oi = `*Mensaje:* ${pesan}`
         let listAdmin = groupAdmins.map((v, i) => `${i + 1}. @${v.split('@')[0]}`).join('\n')
         let text = `
-━「 Invocando admins 」━
+*━「 Invocando admins 」━*
 
 ${oi}
-${listAdmin}
+*${listAdmin}*
 
-[ ⚠ ️] Solo usar este comando cuando se trate de una emergencia
+*[ ⚠ ️] Solo usar este comando cuando se trate de una emergencia*
 `.trim()
         ownernya = [`${m.chat.split`-`[0]}@s.whatsapp.net`]
         let mentionedJid = groupAdmins.concat(ownernya)
