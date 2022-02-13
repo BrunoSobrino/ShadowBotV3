@@ -289,6 +289,9 @@ let menu =`
 ┣ ඬ⃟📝️ _${usedPrefix}lolice *@tag*_
 ┣ ඬ⃟📝️ _${usedPrefix}logos_ (lista)
 ┣ ඬ⃟📝️ _${usedPrefix}simpcard *@tag*_
+┣ ඬ⃟📝️ _${usedPrefix}logosad *texto*_
+┣ ඬ⃟📝️ _${usedPrefix}logogura *texto*_ 
+┣ ඬ⃟📝️ _${usedPrefix}logololi *texto*_
 ┗━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━┓
 ┃ *<PROPIETARO DEL BOT/>*
