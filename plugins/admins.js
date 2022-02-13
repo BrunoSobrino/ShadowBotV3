@@ -22,7 +22,7 @@ let handler = async (m, { conn, participants, groupMetadata, args }) => {
 *━「 Invocando admins 」━*
 
 ${oi}
-*${listAdmin}*
+${listAdmin}
 
 *[ ⚠ ️] Solo usar este comando cuando se trate de una emergencia*
 `.trim()
