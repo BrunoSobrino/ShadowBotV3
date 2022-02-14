@@ -1,31 +1,8 @@
 let axios = require("axios")
-
-
-
-let handler = async (m, { conn }) => {
-
-   await m.reply('*_🔰 Aguarde un momento.._*')
-
-    let res = await axios("https://api.waifu.pics/nsfw/trap")
-
-    let json = res.data
-
-    let url = json.url
-
-    conn.sendFile(m.chat, url, "error.png", "*UN TRAPITO <3*", m)
-
-    }
-
-handler.help = ['htrap']
-
-handler.tags = ['internet']
-
+let handler = async (m, { conn, usedPrefix, command }) => {
+let res = await axios("https://api.waifu.pics/nsfw/trap")
+let json = res.data
+let url = json.url
+conn.send2ButtonImg(m.chat, url, "*UN TRAPITO <3*", '©The Shadow Borkers - Bot', '🥵 SIGUIENTE 🥵', `${usedPrefix + command}`, '🔥 LABIBLIA 🔥', `${usedPrefix}labiblia`) }
 handler.command = /^htrap$/i
-
-handler.premium = false
-
-handler.register = false
-
-//Tenkyuu to Unx-sama
-
 module.exports = handler
