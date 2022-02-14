@@ -129,12 +129,12 @@ let menu =`
 ┃ *<GESTION DE GRUPOS/>* 
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ඬ⃟💎 _${usedPrefix}admins *texto*_ 
-┣ ඬ⃟💎 _${usedPrefix}añadir *numero*_ (desactivado)
-┣ ඬ⃟💎 _${usedPrefix}sacar @tag_ (desactivado)
+┣ ඬ⃟💎 _${usedPrefix}añadir *numero*_ 
+┣ ඬ⃟💎 _${usedPrefix}sacar @tag_
 ┣ ඬ⃟💎 _${usedPrefix}save *@tag + nombre de contacto*_
 ┣ ඬ⃟💎 _${usedPrefix}daradmin *@tag*_
 ┣ ඬ⃟💎 _${usedPrefix}quitaradmin *@tag*_
-┣ ඬ⃟💎 _${usedPrefix}grupo *abierto / cerrado*_
+┣ ඬ⃟💎 _${usedPrefix}grupo *abrir / cerrar*_
 ┣ ඬ⃟💎 _${usedPrefix}enable welcome_
 ┣ ඬ⃟💎 _${usedPrefix}disable welcome_
 ┣ ඬ⃟💎 _${usedPrefix}enable antilink_
