@@ -1,24 +1,11 @@
-let axios = require('axios');
-let fetch = require('node-fetch')
-let neko = require('nekos.life')
-let Neko = new neko()
-     let handler  = async (m, { conn, args }) => {
-     json = (await axios.get('https://meme-api.herokuapp.com/gimme/ecchi')).data
-   conn.sendFile(m.chat, json.url, 'ecchi.jpg', json.title, m, false)
-}
-handler.help = ['ecchi']
-handler.tags = ['sange']
+const axios = require('axios')
+let handler = async(m, { conn, usedPrefix, command }) => {
+let res = await axios("https://meme-api.herokuapp.com/gimme/ecchi")
+let json = res.data
+let url = json.url
+let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+let mentionedJid = [who]
+conn.sendButtonImg(m.chat, url, "*Sexy ❤️‍🔥*", '©The Shadow Borkers - Bot', '🥵 SIGUIENTE 🥵', `${usedPrefix + command}`, m, false, { contextInfo: { mentionedJid }})}
 handler.command = /^ecchi$/i
-handler.owner = false
-handler.mods = false
-handler.premium = false
-handler.group = false
-handler.private = false
-
-handler.limit = false
-handler.admin = false
-handler.botAdmin = false
-
-handler.fail = null
-
+module.exports = handler
 module.exports = handler
