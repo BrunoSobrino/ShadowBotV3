@@ -8,4 +8,3 @@ let mentionedJid = [who]
 conn.sendButtonImg(m.chat, ShadowBot, "*Boobs 🍒❤️‍🔥*", '©The Shadow Borkers - Bot', '🥵 SIGUIENTE 🥵', `${usedPrefix + command}`, m, false, { contextInfo: { mentionedJid }})}
 handler.command = /^(boobs|tetas)$/i
 module.exports = handler
-module.exports = handler
