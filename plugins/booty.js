@@ -1,8 +1,10 @@
 const axios = require('axios')
- let handler = async(m, { conn }) => {
-let les = await axios.get('https://meme-api.herokuapp.com/gimme/booty')
-            conn.sendFile(m.chat, `${les.data.url}`, '', `${les.data.title}`, m)
-  }
+let handler = async(m, { conn, usedPrefix, command }) => {
+let res = await axios("https://meme-api.herokuapp.com/gimme/booty")
+let json = res.data
+let ShadowBot = json.url
+let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+let mentionedJid = [who]
+conn.sendButtonImg(m.chat, ShadowBot, "*Booty 🍑❤️‍🔥*", '©The Shadow Borkers - Bot', '🥵 SIGUIENTE 🥵', `${usedPrefix + command}`, m, false, { contextInfo: { mentionedJid }})}
 handler.command = /^(booty|culo|culos|culo2|culos2)$/i
-
 module.exports = handler
