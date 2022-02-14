@@ -98,7 +98,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ඬ⃟💎 _${usedPrefix}save_
 ┣ ඬ⃟💎 _${usedPrefix}daradmin_
 ┣ ඬ⃟💎 _${usedPrefix}quitaradmin_
-┣ ඬ⃟💎 _${usedPrefix}grupo abierto/cerrado_
+┣ ඬ⃟💎 _${usedPrefix}grupo abrir/cerrar_
 ┣ ඬ⃟💎 _${usedPrefix}enable welcome_
 ┣ ඬ⃟💎 _${usedPrefix}disable welcome_
 ┣ ඬ⃟💎 _${usedPrefix}enable antilink_
