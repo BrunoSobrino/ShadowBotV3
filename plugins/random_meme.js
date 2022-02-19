@@ -1,27 +1,10 @@
-//created by Scooppt
-let fetch = require('node-fetch')
-
-let handler  = async (m, { conn, text }) => {
- try {
-    let res = await fetch('https://meme-api.herokuapp.com/gimme/memesmexico')
-    let json = await res.json()
-    if (json.status) throw json
-    let caption = `
-©Reddit
-Autor: ${json.author} Subreddit: ${json.subreddit}
-${json.postLink}
-`.trim()
-    conn.sendFile(m.chat, json.url, 'test.jpg', caption, m)
-   } catch (e) {
-        console.log(e)
-        throw '_*Erro!*_'
-    }
-}
-
-handler.help = ['meme']
-handler.tags = ['random']
+const axios = require('axios')
+let handler = async(m, { conn, usedPrefix, command }) => {
+let res = await axios("https://meme-api.herokuapp.com/gimme/memesmexico")
+let json = res.data
+let ShadowBot = json.url
+let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+let mentionedJid = [who]
+conn.sendButtonImg(m.chat, ShadowBot, "*😂😂😂😂😂*", '©The Shadow Borkers - Bot', '😂 SIGUIENTE 😂', `${usedPrefix + command}`, m, false, { contextInfo: { mentionedJid }})}
 handler.command = /^meme$/i
-
-handler.fail = null
-
 module.exports = handler
