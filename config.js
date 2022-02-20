@@ -26,6 +26,7 @@ global.APIs = { // API Prefix
   hardianto: 'https://hardianto-chan.herokuapp.com',
   pencarikode: 'https://pencarikode.xyz', 
   LeysCoder: 'https://leyscoders-api.herokuapp.com',
+  adiisus: 'https://adiixyzapi.herokuapp.com',
   lol: 'https://api.lolhuman.xyz',
   pencarikode: 'https://pencarikode.xyz',
   Velgrynd: 'https://velgrynd.herokuapp.com',
