@@ -1,5 +1,7 @@
 // NO QUITES NI CAMBIES NADA DE AQUI POR FAVOR
 // AGREGA TUS DATOS SI QIERES, PERO NO QUITES LOS MIOS
+// ESTE MEDIO ES EL UNICO METODO DE INGRESO DEL BOT 
+// SI TE HARAS PASAR POR EL CREADOR OFC, DONA LO QUE ESTE EN TUS POSIBILIDADES
 let handler = async m => m.reply(`
 *┏ ┅ ━━━━━━━━━━━━━ ┅ ━*
 *┇       「 DONAR 」*
@@ -18,9 +20,5 @@ let handler = async m => m.reply(`
 *┃❖ wa.me/5219996125657*
 *┗ ┅ ━━━━━━━━━━━━━ ┅ ━*
 `.trim()) 
-//PUEDES AGREGAR TUS DATOS, PERO NO QUITES LOS QUE YA ESTÁN PUESTOS
-handler.help = ['donar']
-handler.tags = ['info']
 handler.command = /^(dona|donar|apoyar|dardinero|apoyo)$/i
-
 module.exports = handler
