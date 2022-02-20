@@ -5,6 +5,6 @@ let json = res.data
 let url = json.url
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 let mentionedJid = [who]
-conn.sendButtonImg(m.chat, url, "*Siiiuuuuuu*", '©The Shadow Borkers - Bot', ' SIGUIENTE ', `${usedPrefix + command}`, m, false, { contextInfo: { mentionedJid }})}
+conn.sendButtonImg(m.chat, url, "*Siiiuuuuuu*", '©The Shadow Borkers - Bot', '⚽ SIGUIENTE ⚽', `${usedPrefix + command}`, m, false, { contextInfo: { mentionedJid }})}
 handler.command = /^(cristianoronaldo)$/i
 module.exports = handler
