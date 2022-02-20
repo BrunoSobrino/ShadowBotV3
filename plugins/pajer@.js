@@ -1,5 +1,5 @@
 let handler = async (m, { conn, command, text }) => {
-  if (!text) throw `Quién es *${command.replace('how', '').toUpperCase()}*`
+  if (!text) throw `*Ingrese el @ o el nombre de la persona que desee calcular su porcentaje de ${command.replace('how', '')}*`
   conn.reply(m.chat, `
 _*${text}* *es 😏💦* *${Math.floor(Math.random() * 1039193829)}%* *${command.replace('how', '').toUpperCase()}*_
 `.trim(), m, m.mentionedJid ? {
