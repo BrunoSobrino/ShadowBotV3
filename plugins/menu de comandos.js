@@ -123,6 +123,7 @@ let menu =`
 ┣ ඬ⃟📥 _${usedPrefix}xnxx *link de xnxx*_
 ┣ ඬ⃟📥 _${usedPrefix}xnxxsearch *texto*_
 ┣ ඬ⃟📥 _${usedPrefix}ssweb *link*_
+┣ ඬ⃟📥 _${usedPrefix}playstore *aplicación*_
 ┣ ඬ⃟📥 _${usedPrefix}igstory *username*_
 ┣ ඬ⃟📥 _${usedPrefix}igstalk *username*_
 ┣ ඬ⃟📥 _${usedPrefix}animeinfo *nombre del anime*_
@@ -167,11 +168,13 @@ let menu =`
 ┣ ඬ⃟🧧 _${usedPrefix}trash_
 ┣ ඬ⃟🧧 _${usedPrefix}rainbow_
 ┣ ඬ⃟🧧 _${usedPrefix}circle_
+┣ ඬ⃟🧧 _${usedPrefix}trigger_
 ┣ ඬ⃟🧧 _${usedPrefix}stickermaker_
 ┣ ඬ⃟🧧 _${usedPrefix}attp *texto*_
 ┣ ඬ⃟🧧 _${usedPrefix}style *texto*_
 ┣ ඬ⃟🧧 _${usedPrefix}attp2 *texto*_
 ┣ ඬ⃟🧧 _${usedPrefix}stickerfilter_
+┣ ඬ⃟🧧 _${usedPrefix}trigger *@tag*_
 ┣ ඬ⃟🧧 _${usedPrefix}mp3 *responde a un video*_
 ┣ ඬ⃟🧧 _${usedPrefix}img *responde a un sticker*_
 ┣ ඬ⃟🧧 _${usedPrefix}blur *responde a una imagen*_
