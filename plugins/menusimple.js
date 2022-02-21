@@ -91,6 +91,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ඬ⃟📥 _${usedPrefix}xnxx_
 ┣ ඬ⃟📥 _${usedPrefix}xnxxsearch_
 ┣ ඬ⃟📥 _${usedPrefix}ssweb_
+┣ ඬ⃟📥 _${usedPrefix}playstore
 ┣ ඬ⃟📥 _${usedPrefix}igstory_
 ┣ ඬ⃟📥 _${usedPrefix}igstalk_
 ┣ ඬ⃟📥 _${usedPrefix}animeinfo_
@@ -127,6 +128,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ඬ⃟🧧 _${usedPrefix}trash_
 ┣ ඬ⃟🧧 _${usedPrefix}rainbow_
 ┣ ඬ⃟🧧 _${usedPrefix}circle_
+┣ ඬ⃟🧧 _${usedPrefix}trigger_
 ┣ ඬ⃟🧧 _${usedPrefix}stickermaker_
 ┣ ඬ⃟🧧 _${usedPrefix}attp_
 ┣ ඬ⃟🧧 _${usedPrefix}style_
