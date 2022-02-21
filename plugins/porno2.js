@@ -1,23 +1,10 @@
 const axios = require('axios')
-let handler = async(m, { conn }) => {
-let porn = await axios.get('https://meme-api.herokuapp.com/gimme/porngif')
-           conn.sendFile(m.chat, `${porn.data.url}`, '', `${porn.data.title}`, m)
-  }
-handler.help = ['porno2']
-handler.tags = ['General']
+let handler = async(m, { conn, usedPrefix, command }) => {
+let res = await axios("https://meme-api.herokuapp.com/gimme/porngif")
+let json = res.data
+let ShadowBot = json.url
+let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+let mentionedJid = [who]
+conn.sendButtonImg(m.chat, ShadowBot, "*🥵🥵🥵🥵🥵*", '©The Shadow Borkers - Bot', '🥵 SIGUIENTE 🥵', `${usedPrefix + command}`, m, false, { contextInfo: { mentionedJid }})}
 handler.command = /^(porno2)$/i
-handler.owner = false
-handler.mods = false
-handler.premium = false
-handler.group = false
-handler.private = false
-handler.register = false
-
-handler.admin = false
-handler.botAdmin = false
-
-handler.fail = null
-handler.exp = 0
-handler.limit = false
-
 module.exports = handler
