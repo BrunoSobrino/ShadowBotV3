@@ -9,7 +9,7 @@ let thumb = await (await fetch(json.result[0].icon)).buffer()
 let hasil = `*── 「 PLAYSTORE 」 ──*
 ▢ *NOMBRE*: ${json.result[0].title}
 ▢ *APP ID*: ${json.result[0].appId}
-▢ *DESARROLADOR(A)*: ${json.result[0].developer}
+▢ *DESARROLLADOR(A)*: ${json.result[0].developer}
 ▢ *ESTADO*: ${json.result[0].priceText}
 ▢ *PRECIO*: ${json.result[0].price}
 ▢ *RATING*: ${json.result[0].scoreText}
