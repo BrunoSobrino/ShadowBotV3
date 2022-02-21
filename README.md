@@ -14,7 +14,7 @@
 <a href="https://www.youtube.com/watch?v=dP8-aaHinBE&t=55s"><img height="30" src="https://github.com/shanduy/ShanBot/blob/main/temples/youtube-logo-6-2.png?raw=true"></a>&nbsp;&nbsp;
 > Dar click en la imagen para redireccionarlos a YouTube
 
-### `INSTALACION TERMUX OPCION 1 (GitHub)`
+### `INSTALACION TERMUX`
 ```bash
 > termux-setup-storage
 > apt update && apt upgrade -y -y
@@ -22,23 +22,6 @@
 > apt install nodejs -y
 > apt install ffmpeg -y
 > apt install imagemagick -y
-> git clone https://github.com/BrunoSobrino/ShadowBotV3
-> cd ShadowBotV3
-> npm install
-> npm install -g npm@8.5.0
-> npm update
-> npm start
-```
-### `INSTALACION TERMUX OPCION 2 (Archivos)`
-> Los archivos del Bot estaran en la carpeta de downloads (descargas)
-```bash
-> apt update && apt upgrade -y -y
-> apt install git -y
-> apt install nodejs -y
-> apt install ffmpeg -y
-> apt install imagemagick -y
-> termux-setup-storage
-> cd storage/downloads
 > git clone https://github.com/BrunoSobrino/ShadowBotV3
 > cd ShadowBotV3
 > npm install
@@ -54,31 +37,17 @@ Bot debera usar el comando #enable restrict
 desde el numero que haya puesto en el archivo 
 config.js
 
-> Si instalas el Bot con los archivos
-para obtener nuevamente el codigo QR,
-elimina el archivo session.data.json
-en la carpeta del Bot 
-
-> Si instalas el Bot con GitHub para 
-obtener nuevamente el codigo QR, escribe en el termux:
+> Para obtener nuevamente el codigo QR, escribe en el termux:
 > rm session.data.json
 > npm start 
 
-> Si el termux se cierra para volver activar si la instlacion 
-fue en via GitHub solo debera escribir:
+> Si el termux se cierra para volver activar escribe:
 > cd ShadowBotV3
 > npm start 
-
-> Si el termux se cierra para volver activar si la instlacion 
-fue en via archivos solo debera escribir:
-> cd storage/downloads/ShadowBotV3
-> npm start
 
 > cada vez que realices una modificacion en el
 repositorio del Bot (tu GitHub), puedes usar 
 el comando #actualizar para que se actualicen los datos
-- El comando actualizar no funcionara en el caso de que se 
-haya instalado el Bot via archivos 
 
 > Aconsejable maximo 40 grupos, despues 
 de esa cantidad el Bot empieza a ir 
