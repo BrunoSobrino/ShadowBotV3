@@ -298,7 +298,8 @@ let menu =`
 ┣ ඬ⃟👑 _${usedPrefix}boost_
 ┣ ඬ⃟👑 _${usedPrefix}restart_
 ┣ ඬ⃟👑 _${usedPrefix}banlist_
-┣ ඬ⃟👑 _${usedPrefix}virtext1_
+┣ ඬ⃟👑 _${usedPrefix}binario1_
+┣ ඬ⃟👑 _${usedPrefix}binario2_
 ┣ ඬ⃟👑 _${usedPrefix}banchat2_
 ┣ ඬ⃟👑 _${usedPrefix}actualizar_
 ┣ ඬ⃟👑 _${usedPrefix}CajaFuerte_
