@@ -14,5 +14,5 @@ conn.send2ButtonImg(m.chat, await(await fetch(json.thumbnail.genius)).buffer(), 
 } catch (e) {
 console.log(e)
 m.reply('*[❗] No se encontro la letra de la canción, por favor prueba con otra*')}}
-handler.command = /^(lol2)$/i
+handler.command = /^(l(irik|yrics)|letra)$/i
 module.exports = handler
