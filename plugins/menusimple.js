@@ -82,6 +82,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ඬ⃟📥 _${usedPrefix}letra_
 ┣ ඬ⃟📥 _${usedPrefix}google_
 ┣ ඬ⃟📥 _${usedPrefix}googlef_
+┣ ඬ⃟📥 _${usedPrefix}wikipedia_
 ┣ ඬ⃟📥 _${usedPrefix}pinterestvideo_
 ┣ ඬ⃟📥 _${usedPrefix}tiktokaudio_
 ┣ ඬ⃟📥 _${usedPrefix}tiktok_
