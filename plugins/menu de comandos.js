@@ -78,7 +78,7 @@ let menu =`
 ┣ ඬ⃟🕹 _${usedPrefix}math *modo*_
 ┣ ඬ⃟🎮 _${usedPrefix}ttt *nombre del la sala*_
 ┣ ඬ⃟🕹 _${usedPrefix}delttt *nombre del la sala*_
-┣ ඬ⃟🎮 _${usedPrefix}gay2 *yo / @tag*_
+┣ ඬ⃟🎮 _${usedPrefix}2gay *@tag*_
 ┣ ඬ⃟🕹 _${usedPrefix}gay *@tag / nombre*_
 ┣ ඬ⃟🎮 _${usedPrefix}lesbi *@tag / nombre*_
 ┣ ඬ⃟🕹 _${usedPrefix}pajero *@tag / nombre*_
