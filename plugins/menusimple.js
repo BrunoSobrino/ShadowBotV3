@@ -95,6 +95,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ඬ⃟📥 _${usedPrefix}igstory_
 ┣ ඬ⃟📥 _${usedPrefix}igstalk_
 ┣ ඬ⃟📥 _${usedPrefix}animeinfo_
+┣ ඬ⃟📥 _${usedPrefix}twvid_
 ┣ ඬ⃟💎 _${usedPrefix}admins_ 
 ┣ ඬ⃟💎 _${usedPrefix}añadir_ 
 ┣ ඬ⃟💎 _${usedPrefix}sacar_ 
