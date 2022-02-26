@@ -127,6 +127,7 @@ let menu =`
 ┣ ඬ⃟📥 _${usedPrefix}igstory *username*_
 ┣ ඬ⃟📥 _${usedPrefix}igstalk *username*_
 ┣ ඬ⃟📥 _${usedPrefix}animeinfo *nombre del anime*_
+┣ ඬ⃟📥 _${usedPrefix}twvid *link de video de twitter*_
 ┗━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━┓
 ┃ *<GESTION DE GRUPOS/>* 
