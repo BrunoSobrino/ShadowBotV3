@@ -50,7 +50,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ඬ⃟🕹 _${usedPrefix}math_
 ┣ ඬ⃟🎮 _${usedPrefix}ttt_
 ┣ ඬ⃟🕹 _${usedPrefix}delttt_
-┣ ඬ⃟🎮 _${usedPrefix}gay2_
+┣ ඬ⃟🎮 _${usedPrefix}2gay_
 ┣ ඬ⃟🕹 _${usedPrefix}gay_
 ┣ ඬ⃟🎮 _${usedPrefix}lesbi_
 ┣ ඬ⃟🕹 _${usedPrefix}pajero_
