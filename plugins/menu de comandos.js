@@ -114,6 +114,7 @@ let menu =`
 ┣ ඬ⃟📥 _${usedPrefix}letra *nombredelacanción*_
 ┣ ඬ⃟📥 _${usedPrefix}google *texto*_
 ┣ ඬ⃟📥 _${usedPrefix}googlef *texto*_
+┣ ඬ⃟📥 _${usedPrefix}wikipedia *palabra clave*_
 ┣ ඬ⃟📥 _${usedPrefix}pinterestvideo *link de pinterest*_
 ┣ ඬ⃟📥 _${usedPrefix}tiktokaudio *link del tiktok*_
 ┣ ඬ⃟📥 _${usedPrefix}tiktok *link*_
