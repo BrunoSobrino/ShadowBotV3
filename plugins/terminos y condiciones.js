@@ -1,4 +1,5 @@
 // NO MODIFICAR ABSOLUTAMENTE NADA DE AQUI
+// AL MODIFICAR ESTE APARTADO TU TE HACES RESPONSABLE DE CUALQUIER TEMA LEGAL QUE PUEDA SURGIR 
 let handler = async (m, { conn, text }) => {
     let name = m.fromMe ? conn.user : conn.contacts[m.sender]
 
