@@ -38,7 +38,7 @@ desde el numero que haya puesto en el archivo
 config.js
 
 > Para obtener nuevamente el codigo QR, escribe en el termux:
-> rm session.data.json
+> rm -rf session.data.json
 > npm start 
 
 > Si el termux se cierra para volver activar escribe:
