@@ -124,7 +124,6 @@ let menu =`
 ┣ ඬ⃟📥 _${usedPrefix}xnxx *link de xnxx*_
 ┣ ඬ⃟📥 _${usedPrefix}xnxxsearch *texto*_
 ┣ ඬ⃟📥 _${usedPrefix}ssweb *link*_
-┣ ඬ⃟📥 _${usedPrefix}playstore *aplicación*_
 ┣ ඬ⃟📥 _${usedPrefix}igstory *username*_
 ┣ ඬ⃟📥 _${usedPrefix}igstalk *username*_
 ┣ ඬ⃟📥 _${usedPrefix}animeinfo *nombre del anime*_
