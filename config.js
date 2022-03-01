@@ -49,6 +49,11 @@ global.APIKeys = { // APIKey Here
   'https://api.lolhuman.xyz': 'rey2k21'
 }
 
+lolkey = 'RFK-Rey'
+zekskey = 'apivinz'
+xteamkey = 'Dawnfrostkey'
+xteam = '5bd33b276d41d6b4'
+
 // Sticker WM
 global.packname = '(☞ﾟ∀ﾟ)☞'
 global.author = 'The Shadow Brokers - Bot'
