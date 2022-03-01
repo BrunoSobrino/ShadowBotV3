@@ -1,9 +1,9 @@
 // NO MODIFICAR ABSOLUTAMENTE NADA DE AQUI
 // AL MODIFICAR ESTE APARTADO TU TE HACES RESPONSABLE DE CUALQUIER TEMA LEGAL QUE PUEDA SURGIR 
-let handler = async (m, { conn, text }) => {
-    let name = m.fromMe ? conn.user : conn.contacts[m.sender]
 
-  conn.reply(m.chat, `
+let handler = async (m, { conn, text }) => {
+let name = m.fromMe ? conn.user : conn.contacts[m.sender]
+conn.reply(m.chat, `
 *=> El desconocimiento de lo que aqui se menciona no exime al propietario del Bot, Sub Bot o usuario del bot de la sanciones que se puedan derivar❗*
 
 *⚠️ Términos de privacidad*
@@ -27,6 +27,21 @@ _6.- Los audios/notas de voz/imágenes/videos o cualquier otro archivo multimedi
 
 _- Si en algún momento recibe un mensaje del numero del Bot y no es un comando posiblemente sea de el propietario del Bot o el propietario del numero, este es un persona real por lo que se le pide que no le falte el respeto_
 
+*➤ Base usada para este Bot:*
+*- https://github.com/BochilGaming/games-wabot*
+
+*Agradecimientos a:*
+*- Unx21*
+*- Narutomo*
+*- BochilGaming*
+*- Unxteam*
+*- Bochilteam*
+*- ConfuMods*
+*- Hiro*
+*- The.sad.boy01*
+*- botstylee*
+*- Amel*
+
 *⁉️ Te quedaron dudas?*
 
 _- Si todavía tienes alguna duda o reclamo de lo mencionado aqui o referente al Bot, contáctame a mi numero personal al cual estaré respondiendo lo antes posible para brindarte una solución y/o hacerme responsable de alguna reclamación_ 
@@ -38,10 +53,7 @@ _- Si todavía tienes alguna duda o reclamo de lo mencionado aqui o referente al
 
 *∆ THE SHADOW BROKERS - BOT ∆*
 `.trim(), m)
-    let mentionedJid = [m.sender]
-}
-    
+let mentionedJid = [m.sender]} 
 handler.customPrefix = /términos y condiciones y privacidad|terminosycondicionesyprivacidad|terminosycondiciones|terminos y condiciones y privacidad|terminos y condiciones|terminos y condiciones|terminos de uso|Terminos de uso|Terminó se uso|términos de uso|Términos de uso|Términos y condiciones/i
 handler.command = new RegExp
-
 module.exports = handler 
