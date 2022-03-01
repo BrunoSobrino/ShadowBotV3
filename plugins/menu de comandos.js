@@ -120,7 +120,7 @@ let menu =`
 ┣ ඬ⃟📥 _${usedPrefix}tiktok *link*_
 ┣ ඬ⃟📥 _${usedPrefix}spotify *autor, cancion*_
 ┣ ඬ⃟📥 _${usedPrefix}acortar *link*_
-┣ ඬ⃟📥 _${usedPrefix}pinterest2 *texto*_
+┣ ඬ⃟📥 _${usedPrefix}pinterest *texto*_
 ┣ ඬ⃟📥 _${usedPrefix}xnxx *link de xnxx*_
 ┣ ඬ⃟📥 _${usedPrefix}xnxxsearch *texto*_
 ┣ ඬ⃟📥 _${usedPrefix}ssweb *link*_
