@@ -1,20 +1,17 @@
 let PhoneNumber = require('awesome-phonenumber')
 let levelling = require('../lib/levelling')
-
 let handler = async (m, { conn, usedPrefix }) => {
-
-  let pp = './Menu2.jpg'
-  let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-  try {
+let pp = './Menu2.jpg'
+let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+try {
 //    pp = await conn.getProfilePicture(who)
-  } catch (e) {
-
-  } finally {
-    let about = (await conn.getStatus(who).catch(console.error) || {}).status || ''
-    let { name, limit, exp, banned, lastclaim, registered, regTime, age, level } = global.DATABASE.data.users[m.sender]
-    let { min, xp, max } = levelling.xpRange(level, global.multiplier)
-    let username = conn.getName(who)
-    let str = `
+} catch (e) {
+} finally {
+let about = (await conn.getStatus(who).catch(console.error) || {}).status || ''
+let { name, limit, exp, banned, lastclaim, registered, regTime, age, level } = global.DATABASE.data.users[m.sender]
+let { min, xp, max } = levelling.xpRange(level, global.multiplier)
+let username = conn.getName(who)
+let str = `
 ╭══〘 ✯✯✯✯✯✯✯✯ 〙═╮
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ║➤ *✨𝗛ola, ${username}!!*
@@ -28,7 +25,6 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ඬ⃟ℹ️️ _${usedPrefix}infobot_
 ┣ ඬ⃟ℹ️️ _${usedPrefix}grupos_
 ┣ ඬ⃟ℹ️ _${usedPrefix}instalarbot_
-┣ ඬ⃟ℹ️ _${usedPrefix}reglas_
 ┣ ඬ⃟ℹ️ _${usedPrefix}menusimple_
 ┣ ඬ⃟ℹ️️ _${usedPrefix}menuaudios_
 ┣ ඬ⃟ℹ️️ _${usedPrefix}menu2_
@@ -221,22 +217,9 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ඬ⃟📝️ _${usedPrefix}logololi_
 ┗━━━━━━━━━━━━━┛
 `.trim()
-    let mentionedJid = [who]
-    conn.sendFile(m.chat, pp, 'lp.jpg', str, m, false, { contextInfo: { mentionedJid }})
-  }
-}
-handler.help = ['menusimple']
-handler.tags = ['General']
+let mentionedJid = [who]
+conn.sendFile(m.chat, pp, 'lp.jpg', str, m, false, { contextInfo: { mentionedJid }})
+}}
 handler.command = /^(menusimple)$/i
-handler.owner = false
-handler.mods = false
-handler.premium = false
-handler.group = false
-handler.private = false
-
-handler.admin = false
-handler.botAdmin = false
-
 handler.fail = null
-
 module.exports = handler
