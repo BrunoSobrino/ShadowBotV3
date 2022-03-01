@@ -88,11 +88,10 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ඬ⃟📥 _${usedPrefix}tiktok_
 ┣ ඬ⃟📥 _${usedPrefix}spotify_
 ┣ ඬ⃟📥 _${usedPrefix}acortar_
-┣ ඬ⃟📥 _${usedPrefix}pinterest2_
+┣ ඬ⃟📥 _${usedPrefix}pinterest_
 ┣ ඬ⃟📥 _${usedPrefix}xnxx_
 ┣ ඬ⃟📥 _${usedPrefix}xnxxsearch_
 ┣ ඬ⃟📥 _${usedPrefix}ssweb_
-┣ ඬ⃟📥 _${usedPrefix}playstore
 ┣ ඬ⃟📥 _${usedPrefix}igstory_
 ┣ ඬ⃟📥 _${usedPrefix}igstalk_
 ┣ ඬ⃟📥 _${usedPrefix}animeinfo_
