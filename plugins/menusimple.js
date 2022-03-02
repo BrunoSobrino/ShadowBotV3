@@ -201,20 +201,27 @@ let str = `
 ┣ ඬ⃟🏷 _${usedPrefix}stop_
 ┣ ඬ⃟🏷 _${usedPrefix}jadibot_
 ┣ ඬ⃟🏷 _${usedPrefix}getcode_
+┣ ඬ⃟📝️ _${usedPrefix}logos_ 
 ┣ ඬ⃟📝️ _${usedPrefix}lolice_
 ┣ ඬ⃟📝️ _${usedPrefix}simpcard_
 ┣ ඬ⃟📝️ _${usedPrefix}hornycard_ 
 ┣ ඬ⃟📝️ _${usedPrefix}lblackpink_
-┣ ඬ⃟📝️ _${usedPrefix}logocorazon_
+┣ ඬ⃟📝️ _${usedPrefix}neon_
 ┣ ඬ⃟📝️ _${usedPrefix}tahta_
 ┣ ඬ⃟📝️ _${usedPrefix}nulis_
+┣ ඬ⃟📝️ _${usedPrefix}horror_
 ┣ ඬ⃟📝️ _${usedPrefix}nulis2_
 ┣ ඬ⃟📝️ _${usedPrefix}lolice_
-┣ ඬ⃟📝️ _${usedPrefix}logos_ 
 ┣ ඬ⃟📝️ _${usedPrefix}simpcard_
-┣ ඬ⃟📝️ _${usedPrefix}logosad_
+┣ ඬ⃟📝️ _${usedPrefix}logosky_ 
+┣ ඬ⃟📝️ _${usedPrefix}logocolor_
 ┣ ඬ⃟📝️ _${usedPrefix}logogura_ 
 ┣ ඬ⃟📝️ _${usedPrefix}logololi_
+┣ ඬ⃟📝️ _${usedPrefix}neonheart_
+┣ ඬ⃟📝️ _${usedPrefix}logocorazon_
+┣ ඬ⃟📝️ _${usedPrefix}logosad_
+┣ ඬ⃟📝️ _${usedPrefix}logowolf_
+┣ ඬ⃟📝️ _${usedPrefix}logovintage_
 ┗━━━━━━━━━━━━━┛
 `.trim()
 let mentionedJid = [who]
