@@ -277,20 +277,27 @@ let menu =`
 ┏━━━━━━━━━━━━━┓
 ┃ *<LOGOS PERSONALIZADOS/>*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+┣ ඬ⃟📝️ _${usedPrefix}logos_ (lista)
 ┣ ඬ⃟📝️ _${usedPrefix}lolice_
 ┣ ඬ⃟📝️ _${usedPrefix}simpcard_
 ┣ ඬ⃟📝️ _${usedPrefix}hornycard_ 
 ┣ ඬ⃟📝️ _${usedPrefix}lblackpink_
-┣ ඬ⃟📝️ _${usedPrefix}logocorazon_
+┣ ඬ⃟📝️ _${usedPrefix}neon *texto*_
 ┣ ඬ⃟📝️ _${usedPrefix}tahta *texto*_
 ┣ ඬ⃟📝️ _${usedPrefix}nulis *texto*_
+┣ ඬ⃟📝️ _${usedPrefix}horror *texto*_
 ┣ ඬ⃟📝️ _${usedPrefix}nulis2 *texto*_
 ┣ ඬ⃟📝️ _${usedPrefix}lolice *@tag*_
-┣ ඬ⃟📝️ _${usedPrefix}logos_ (lista)
 ┣ ඬ⃟📝️ _${usedPrefix}simpcard *@tag*_
+┣ ඬ⃟📝️ _${usedPrefix}logosky *texto*_ 
+┣ ඬ⃟📝️ _${usedPrefix}logocolor *texto*_
 ┣ ඬ⃟📝️ _${usedPrefix}logogura *texto*_ 
 ┣ ඬ⃟📝️ _${usedPrefix}logololi *texto*_
+┣ ඬ⃟📝️ _${usedPrefix}neonheart *texto*_
+┣ ඬ⃟📝️ _${usedPrefix}logocorazon *texto*_
 ┣ ඬ⃟📝️ _${usedPrefix}logosad *texto1|texto2*_
+┣ ඬ⃟📝️ _${usedPrefix}logowolf *texto1|texto2*_
+┣ ඬ⃟📝️ _${usedPrefix}logovintage *texto1|texto2*_
 ┗━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━┓
 ┃ *<PROPIETARO DEL BOT/>*
