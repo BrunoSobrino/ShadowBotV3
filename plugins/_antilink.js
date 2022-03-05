@@ -13,8 +13,8 @@ handler.before = async function (m, { user, isBotAdmin, isAdmin, conn }) {
   if (chat.antiLink && isGroupLink) {
     await m.reply(`*「 ANTI LINKS 」*\n*Hasta la vista baby👋, ${await this.getName(m.sender)} rompiste las reglas serás exterminado....!!*`)
     await m.reply(`*Tienes 3 segundos para eliminar el link y retractarte...!!!!*`)
-    await conn.sendFile(m.chat, stk, 'adios.webp', null, m, { type: 'stickerMessage', sticker: true })
-    await conn.sendFile(m.chat, sticker, 'adios.webp', null, m, { type: 'stickerMessage', sticker: true })
+    await conn.sendFile(m.chat, stk, 'adios.webp', null, m, { type: 'MessageType.sticker', sticker: true })
+    await conn.sendFile(m.chat, sticker, 'adios.webp', null, m, { type: 'MessageType.sticker', sticker: true })
     if (isAdmin) return m.reply('*Te salvaste cagon(a) eres admin, no puedo eliminarte :v*')
     if (!isBotAdmin) return m.reply('*El bot no es admin, no puede exterminar a las personas*')
     let linkGC = ('https://chat.whatsapp.com/' + await this.groupInviteCode(m.chat))
