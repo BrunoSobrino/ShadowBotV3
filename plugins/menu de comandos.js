@@ -290,14 +290,15 @@ let menu =`
 ┣ ඬ⃟📝️ _${usedPrefix}lolice *@tag*_
 ┣ ඬ⃟📝️ _${usedPrefix}simpcard *@tag*_
 ┣ ඬ⃟📝️ _${usedPrefix}logotaza *texto*_ 
+┣ ඬ⃟📝️ _${usedPrefix}logocesped *texto*_ 
 ┣ ඬ⃟📝️ _${usedPrefix}logotaza2 *texto*_ 
-┣ ඬ⃟📝️ _${usedPrefix}logocolor *texto*_
-┣ ඬ⃟📝️ _${usedPrefix}logogura *texto*_ 
-┣ ඬ⃟📝️ _${usedPrefix}logololi *texto*_
-┣ ඬ⃟📝️ _${usedPrefix}neonheart *texto*_
+┣ ඬ⃟📝️ _${usedPrefix}romanticmessages *texto*_
+┣ ඬ⃟📝️ _${usedPrefix}flaming *texto*_ 
+┣ ඬ⃟📝️ _${usedPrefix}logofire *texto*_
+┣ ඬ⃟📝️ _${usedPrefix}logosky *texto*_
 ┣ ඬ⃟📝️ _${usedPrefix}logocorazon *texto*_
 ┣ ඬ⃟📝️ _${usedPrefix}logorandom *texto*_
-┣ ඬ⃟📝️ _${usedPrefix}logosad *texto1|texto2*_
+┣ ඬ⃟📝️ _${usedPrefix}romanticdouble *texto*_
 ┣ ඬ⃟📝️ _${usedPrefix}lovemessages *texto*_
 ┗━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━┓
