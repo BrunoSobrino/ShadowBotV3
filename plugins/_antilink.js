@@ -3,6 +3,7 @@ let path = require('path')
 let handler = m => m
 
 let linkRegex = /chat.whatsapp.com\/([0-9A-Za-z]{20,24})/i
+let handler = async (m, { conn }) => {
 handler.before = async function (m, { user, isBotAdmin, isAdmin, conn }) {
   if ((m.isBaileys && m.fromMe) || m.fromMe || !m.isGroup) return true
   let chat = global.DATABASE.data.chats[m.chat]
@@ -25,5 +26,6 @@ handler.before = async function (m, { user, isBotAdmin, isAdmin, conn }) {
   }
   return true
 }
+}  
 
 module.exports = handler
