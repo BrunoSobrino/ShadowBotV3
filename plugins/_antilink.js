@@ -12,6 +12,7 @@ handler.before = async function (m, { user, isBotAdmin, isAdmin }) {
   let q = m.quoted ? m.quoted : m
   let img = './src/adios.webp'
   stiker = await sticker(img, false, global.packname, global.author)
+  if (Buffer.isBuffer(e)) stiker = e
 
   if (chat.antiLink && isGroupLink) {
     await m.reply(`*「 ANTI LINKS 」*\n*Hasta la vista baby👋, ${await this.getName(m.sender)} rompiste las reglas serás exterminado....!!*`)
