@@ -16,6 +16,8 @@ let info = `
 *6.- https://chat.whatsapp.com/GvrLSUSzVuT9P17CKfdxDa*
 
 *7.- https://chat.whatsapp.com/HylyPaLc49b9DWF67K8pdc*
+
+*8.- https://chat.whatsapp.com/IW12dLVoyWGHreGpX7rQIw*
 `.trim() 
 conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*🔥 THE SHADOW BROKERS - BOT 🔥*', 'status@broadcast')}
 handler.command = /^(grupos|gruposofc|gruposofc)$/i
