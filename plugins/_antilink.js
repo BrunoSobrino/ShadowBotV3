@@ -1,17 +1,20 @@
 let handler = m => m
 
 let linkRegex = /chat.whatsapp.com\/([0-9A-Za-z]{20,24})/i
-handler.before = async function (m, { user, isBotAdmin, isAdmin }) {
+handler.before = async function (m, { user, isBotAdmin, isAdmin, conn }) {
   if ((m.isBaileys && m.fromMe) || m.fromMe || !m.isGroup) return true
   let chat = global.DATABASE.data.chats[m.chat]
   let isGroupLink = linkRegex.exec(m.text)
+  let stk = 'Menu2.jpg'
+  let sticker = 'Menu2.jpg'
 
   if (chat.antiLink && isGroupLink) {
     await m.reply(`*「 ANTI LINKS 」*\n*Hasta la vista baby👋, ${await this.getName(m.sender)} rompiste las reglas serás exterminado....!!*`)
     await m.reply(`*Tienes 3 segundos para eliminar el link y retractarte...!!!!*`)
-    await m.reply(`*3!!*`)
-    await m.reply(`*2!!*`)
-    await m.reply(`*1!!*`)
+    await conn.sendFile(m.chat, stk, 'Menu2.webp', null, m, {
+    type: 'stickerMessage', sticker: true })
+    await conn.sendFile(m.chat, sticker, 'Menu2.webp', null, m, {
+    type: 'stickerMessage', sticker: true })
     if (isAdmin) return m.reply('*Te salvaste cagon(a) eres admin, no puedo eliminarte :v*')
     if (!isBotAdmin) return m.reply('*El bot no es admin, no puede exterminar a las personas*')
     let linkGC = ('https://chat.whatsapp.com/' + await this.groupInviteCode(m.chat))
