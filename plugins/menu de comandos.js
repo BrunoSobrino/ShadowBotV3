@@ -285,21 +285,24 @@ let menu =`
 ┣ ඬ⃟📝️ _${usedPrefix}coffe *texto*_
 ┣ ඬ⃟📝️ _${usedPrefix}tahta *texto*_
 ┣ ඬ⃟📝️ _${usedPrefix}nulis *texto*_
-┣ ඬ⃟📝️ _${usedPrefix}cementerio *texto*_
 ┣ ඬ⃟📝️ _${usedPrefix}nulis2 *texto*_
 ┣ ඬ⃟📝️ _${usedPrefix}lolice *@tag*_
 ┣ ඬ⃟📝️ _${usedPrefix}simpcard *@tag*_
 ┣ ඬ⃟📝️ _${usedPrefix}logotaza *texto*_ 
 ┣ ඬ⃟📝️ _${usedPrefix}logocesped *texto*_ 
 ┣ ඬ⃟📝️ _${usedPrefix}logotaza2 *texto*_ 
-┣ ඬ⃟📝️ _${usedPrefix}romanticmessages *texto*_
 ┣ ඬ⃟📝️ _${usedPrefix}flaming *texto*_ 
 ┣ ඬ⃟📝️ _${usedPrefix}logofire *texto*_
 ┣ ඬ⃟📝️ _${usedPrefix}logosky *texto*_
 ┣ ඬ⃟📝️ _${usedPrefix}logocorazon *texto*_
 ┣ ඬ⃟📝️ _${usedPrefix}logorandom *texto*_
-┣ ඬ⃟📝️ _${usedPrefix}romanticdouble *texto*_
+┣ ඬ⃟📝️ _${usedPrefix}neonfire *texto*_ 
+┣ ඬ⃟📝️ _${usedPrefix}technology *texto*_ 
+┣ ඬ⃟📝️ _${usedPrefix}playa *texto*_ 
 ┣ ඬ⃟📝️ _${usedPrefix}lovemessages *texto*_
+┣ ඬ⃟📝️ _${usedPrefix}cementerio *texto*_
+┣ ඬ⃟📝️ _${usedPrefix}romanticdouble *texto*_
+┣ ඬ⃟📝️ _${usedPrefix}romanticmessages *texto*_
 ┗━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━┓
 ┃ *<PROPIETARO DEL BOT/>*
