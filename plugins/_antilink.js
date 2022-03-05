@@ -5,6 +5,8 @@ handler.before = async function (m, { user, isBotAdmin, isAdmin, conn }) {
   if ((m.isBaileys && m.fromMe) || m.fromMe || !m.isGroup) return true
   let chat = global.DATABASE.data.chats[m.chat]
   let isGroupLink = linkRegex.exec(m.text)
+  let util = require('util')
+  let path = require('path')
   let stk = './src/adios.webp'
   let sticker = './src/adios.webp'
 
