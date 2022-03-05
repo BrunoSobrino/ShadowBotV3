@@ -50,6 +50,7 @@ let menu =`
 ┣ ඬ⃟🔞 _${usedPrefix}ero_
 ┣ ඬ⃟🔞 _${usedPrefix}femdom_
 ┣ ඬ⃟🔞 _${usedPrefix}foot_
+┣ ඬ⃟🔞 _${usedPrefix}pies_
 ┣ ඬ⃟🔞 _${usedPrefix}glass_
 ┣ ඬ⃟🔞 _${usedPrefix}yuri_
 ┣ ඬ⃟🔞 _${usedPrefix}yaoigif_
