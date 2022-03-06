@@ -110,6 +110,7 @@ let menu =`
 ┣ ඬ⃟📥 _${usedPrefix}play *titulo del audio*_
 ┣ ඬ⃟📥 _${usedPrefix}play2 *titulo del video*_
 ┣ ඬ⃟📥 _${usedPrefix}play3 *titulo del audio/video*_
+┣ ඬ⃟📥 _${usedPrefix}play4 *titulo del video*_
 ┣ ඬ⃟📥 _${usedPrefix}letra *nombredelacanción*_
 ┣ ඬ⃟📥 _${usedPrefix}google *texto*_
 ┣ ඬ⃟📥 _${usedPrefix}googlef *texto*_
