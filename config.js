@@ -58,7 +58,8 @@ global.packname = '(☞ﾟ∀ﾟ)☞'
 global.author = 'The Shadow Brokers - Bot'
 
 
-//global.wait = '*Esperé un momento..*'
+global.wm = '©The Shadow Brokers - Bot'
+global.wait = '*Espere un momento..*'
 
 
 global.multiplier = 69 // The higher, The harder levelup
