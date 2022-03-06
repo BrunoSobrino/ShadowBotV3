@@ -185,6 +185,7 @@ let menu =`
 ┏━━━━━━━━━━━━━┓
 ┃ *<RANDOM|EXTRAS/>*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+┣ ඬ⃟👾 _${usedPrefix}frase_
 ┣ ඬ⃟👾 _${usedPrefix}futbol_
 ┣ ඬ⃟👾 _${usedPrefix}Messi_
 ┣ ඬ⃟👾 _${usedPrefix}animal_
