@@ -33,10 +33,12 @@ global.APIs = { // API Prefix
   Velgrynd: 'https://velgrynd.herokuapp.com',
   rey: 'https://server-api-rey.herokuapp.com',
   hardianto: 'http://hardianto-chan.herokuapp.com',
-  shadow: 'https://api.reysekha.xyz'
+  shadow: 'https://api.reysekha.xyz',
+  apialc: 'https://api-alc.herokuapp.com'
 }
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
+  'https://api-alc.herokuapp.com': 'ConfuMods',
   'https://api.reysekha.xyz': 'apirey',
   'https://melcanz.com': 'F3bOrWzY',
   'https://bx-hunter.herokuapp.com': 'Ikyy69',
