@@ -22,7 +22,7 @@ global.logos = [
 "romantic-messages",
 "flaming-fire",
 "flaming-fire",
-"romantic-double"
+"romantic-double",
 "burn-paper",
 "text-on-scary", 
 "under-grass",
