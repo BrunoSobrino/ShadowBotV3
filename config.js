@@ -48,7 +48,7 @@ global.APIKeys = { // APIKey Here
   'https://pencarikode.xyz': 'pais', 
   'https://leyscoders-api.herokuapp.com': 'MIMINGANZ', 
   'https://server-api-rey.herokuapp.com': 'apirey',
-  'https://api.lolhuman.xyz': '85faf717d0545d14074659ad'
+  'https://api.lolhuman.xyz': '9b817532fadff8fc7cb86862'
 }
 
 // Sticker WM
