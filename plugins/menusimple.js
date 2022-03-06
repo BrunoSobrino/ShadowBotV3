@@ -137,6 +137,7 @@ let str = `
 ┣ ඬ⃟🧧 _${usedPrefix}swm_
 ┣ ඬ⃟🧧 _${usedPrefix}gif_
 ┣ ඬ⃟🧧 _${usedPrefix}tovideo_
+┣ ඬ⃟👾 _${usedPrefix}frase_
 ┣ ඬ⃟👾 _${usedPrefix}futbol_
 ┣ ඬ⃟👾 _${usedPrefix}Messi_
 ┣ ඬ⃟👾 _${usedPrefix}animal_
