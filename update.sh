@@ -9,13 +9,13 @@ GREEN="\033[1;32m"
 RED='\033[1;31m'
 NC='\033[0m'
 
-echo $YELLOW"Estas seguro que quieres actualizar ShadowBotV3 orion? [s/n]"
+echo $YELLOW"Estas seguro que quieres actualizar ShadowBotV3? [s/n]"
 read -p "> " opts
 
 if [ $opts = "s" ]; then
 
 clear
-echo $YELLOW"Atualizando o brizas orion, aguarde..."
+echo $YELLOW"Actualizando ShadowBotV3, aguarde..."
 git clone https://github.com/BrunoSobrino/ShadowBotV3 > /dev/null 2> /dev/null
 
 cd ShadowBotV3
@@ -25,10 +25,10 @@ rm -rf ShadowBotV3
 npm i
 
 clear
-echo $GREEN"ShadowBotV3 orion atualizado com sucesso!!"
+echo $GREEN"ShadowBotV3 actualizado con éxito!!!"
 
 elif [ $opts = "n"]; then
     clear
-    echo $RED"Atualização do ShadowBotV3 orion abortada"
+    echo $RED"Actualización de ShadowBotV3 cancelada, puede hacerlo manualmente"
     exit
 fi
