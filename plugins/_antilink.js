@@ -5,9 +5,9 @@ handler.before = async function (m, { user, isBotAdmin, isAdmin, conn }) {
   if ((m.isBaileys && m.fromMe) || m.fromMe || !m.isGroup) return true
   let chat = global.DATABASE.data.chats[m.chat]
   let isGroupLink = linkRegex.exec(m.text)
-  let sticker1 = fs.readFileSync('./media/sp45.webp')
-  let sticker2 = fs.readFileSync('./media/sp45.webp')
-  let sticker3 = fs.readFileSync('./media/sp45.webp')
+  let sticker1 = fs.readFileSync('./src/adios.webp')
+  let sticker2 = fs.readFileSync('./src/adios.webp')
+  let sticker3 = fs.readFileSync('./src/adios.webp')
 
   if (chat.antiLink && isGroupLink) {
     await m.reply(`*「 ANTI LINKS 」*\n*Hasta la vista baby👋, ${await this.getName(m.sender)} rompiste las reglas serás exterminado....!!*`)
