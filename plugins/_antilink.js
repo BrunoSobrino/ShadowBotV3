@@ -13,7 +13,7 @@ handler.before = async function (m, { user, isBotAdmin, isAdmin, conn }) {
   if (chat.antiLink && isGroupLink) {
     await m.reply(`*「 ANTI LINKS 」*\n*Hasta la vista baby👋, ${await this.getName(m.sender)} rompiste las reglas serás exterminado....!!*`)
     await m.reply(`*Tienes 3 segundos para eliminar el link y retractarte...!!!!*`)
-    conn.fakeReply(m.chat, sticker1, '0@s.whatsapp.net', '🔥 THE SHADOW BROKERS - BOT 🔥', 'status@broadcast')}
+    conn.fakeReply(m.chat, sticker1, '0@s.whatsapp.net', '🔥 THE SHADOW BROKERS - BOT 🔥', 'status@broadcast')
     await conn.fakeReply(m.chat, sticker2, 'ShadowBotV3')
     await conn.fakeReply(m.chat, sticker3, 'ShadowBotV3')
     if (isAdmin) return m.reply('*Te salvaste cagon(a) eres admin, no puedo eliminarte :v*')
