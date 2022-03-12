@@ -1,3 +1,5 @@
+let { MessageType } = require('@adiwajshing/baileys')
+let fs = require('fs')
 let handler  = async (m, { conn, usedPrefix: _p }) => {
 let info = `
 *Hola 👋🏻, unete a los grupos oficiales para pasar un rato agradable usando el Bot o platicando con la familia de The Shadow Borkers - Bot*
@@ -19,6 +21,6 @@ let info = `
 
 *8.- https://chat.whatsapp.com/IW12dLVoyWGHreGpX7rQIw*
 `.trim() 
-conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*🔥 THE SHADOW BROKERS - BOT 🔥*', 'status@broadcast')}
+conn.sendMessage(m.chat, info, MessageType.text, { quoted: { key: { remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net', fromMe: false }, message: { "imageMessage": { "mimetype": "image/jpeg", "caption": '🔥 THE SHADOW BROKERS - BOT 🔥', "jpegThumbnail": fs.readFileSync(`./Menu2.jpg`)}}}})}
 handler.command = /^(grupos|gruposofc|gruposofc)$/i
 module.exports = handler
