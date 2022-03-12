@@ -9,8 +9,6 @@ if (!vid) throw '*Video/Audio No encontrado* '
 let isVideo = /2$/.test(command)
 let { dl_link, thumb, title, filesize, filesizeF} = await (isVideo ? ytv : yta)(vid.url, 'id4')
 conn.sendFile(m.chat, thumb, 'thumbnail.jpg', `
-*⏯ ️Reproductor By Shadow Brokers - Bot ⏯️*
-
 *${title}*
 *⇄ㅤ     ◁   ㅤ  ❚❚ㅤ     ▷ㅤ     ↻*
 
@@ -21,8 +19,7 @@ let _thumb = {}
 try { if (isVideo) _thumb = { thumbnail: await (await fetch(thumb)).buffer() } }
 catch (e) { }
 conn.sendFile(m.chat, dl_link, title + '.mp' + (3 + /2$/.test(command)), `
-*🔥Título:* ${title}
-*📂Tamaño del archivo:* ${filesizeF}
+*🔥Título: ${title}*
 `.trim(), m, false, _thumb || {})}
 handler.help = ['play' , 'play2']
 handler.command = /^play2?$/i
