@@ -320,12 +320,20 @@ let menu =`
 ┣ ඬ⃟👑 _${usedPrefix}CajaFuerte_
 ┣ ඬ⃟👑 _${usedPrefix}unbanchat2_
 ┣ ඬ⃟👑 _${usedPrefix}bc *texto*_
+┣ ඬ⃟👑 _${usedPrefix}deletechat_
+┣ ඬ⃟👑 _${usedPrefix}mutechat_
 ┣ ඬ⃟👑 _${usedPrefix}bcgc *texto*_
 ┣ ඬ⃟👑 _${usedPrefix}bcbot *texto*_
+┣ ඬ⃟👑 _${usedPrefix}mutechat *all*_
 ┣ ඬ⃟👑 _${usedPrefix}setbye *@tag*_
 ┣ ඬ⃟👑 _${usedPrefix}banuser *@tag*_
+┣ ඬ⃟👑 _${usedPrefix}deletechat *all*_
+┣ ඬ⃟👑 _${usedPrefix}mutechat *chat*_
+┣ ඬ⃟👑 _${usedPrefix}mutechat *group*_
 ┣ ඬ⃟👑 _${usedPrefix}enable *public*_
 ┣ ඬ⃟👑 _${usedPrefix}disable *public*_
+┣ ඬ⃟👑 _${usedPrefix}deletechat *chat*_
+┣ ඬ⃟👑 _${usedPrefix}deletechat *group*_
 ┣ ඬ⃟👑 _${usedPrefix}unbanuser *@tag*_
 ┣ ඬ⃟👑 _${usedPrefix}listgroup *@tag*_
 ┣ ඬ⃟👑 _${usedPrefix}enable *restrict*_
