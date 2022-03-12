@@ -16,6 +16,6 @@ conn.reply(m.chat, '*Terminado y realizado con éxito ✅*', m, false, { context
 }
 handler.help = ['deletechat', 'deletechat chat', 'deletechat group', 'deletechat all', 'mutechat', 'mutechat chat', 'mutechat group', 'mutechat all']
 handler.command = /^(clear|delete|mute)chat$/i
-handler.prems = true
+handler.premium = true
 handler.fail = null
 module.exports = handler
