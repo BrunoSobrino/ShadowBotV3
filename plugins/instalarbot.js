@@ -18,6 +18,7 @@ let handler = async m => m.reply(`
 ➤ WhatsApp recomendado: https://download853.mediafire.com/xawpdplr7wvg/u133oxjqtiry52t/%E2%9E%A2+SOLITARIO+BUSINESS+%E2%9E%A2_2.21.19.21.apk
    
 💥 𝐂𝐎𝐌𝐀𝐍𝐃𝐎𝐒 𝐃𝐄 𝐈𝐍𝐒𝐓𝐀𝐋𝐀𝐂𝐈𝐎𝐍 𝐕𝐈𝐀 𝐆𝐈𝐓𝐇𝐔𝐁 💥
+> termux-setup-storage
 ➤ apt update && apt upgrade -y -y
 ➤ apt install git -y
 ➤ apt install nodejs -y
@@ -26,13 +27,14 @@ let handler = async m => m.reply(`
 ➤ git clone https://github.com/BrunoSobrino/ShadowBotV3
 ➤ cd ShadowBotV3
 ➤ npm install
-➤ npm install -g npm@8.4.0
+➤ npm install -g npm@8.5.4
 ➤ npm update
 ➤ npm start
 ° Escaneas el código QR tienes 30 segundos para hacerlo
 
 💥 INFO EXTRA 💥
 ➤ Se sugiere leer el archivo README.md 
+➤ Bot no compartible con WhatsApp web multi device 
 ➤ Para habilitar el /añadir y el /sacar usa #enable autoread
 - Puede ocasionar que el numero se vaya a soporte 
 ➤ PayPal para apoyo voluntario: https://www.paypal.me/TheShadowBrokers133
