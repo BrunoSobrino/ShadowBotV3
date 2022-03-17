@@ -21,6 +21,10 @@ let info = `
 *7.-* https://chat.whatsapp.com/HylyPaLc49b9DWF67K8pdc
 
 *8.-* https://chat.whatsapp.com/IW12dLVoyWGHreGpX7rQIw
+
+*9.-* https://chat.whatsapp.com/Ef89aIuOLeD3Fa2sYmKwp7
+
+*10.-* https://chat.whatsapp.com/C2WYb1hiiijCI13QSUZLM9
 `.trim() 
 
 conn.sendMessage(m.chat, info, MessageType.text, { quoted: { key: { remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net', fromMe: false }, message: { "imageMessage": { "mimetype": "image/jpeg", "caption": '🔥 THE SHADOW BROKERS - BOT 🔥', "jpegThumbnail": fs.readFileSync(`./Menu2.jpg`)}}}})}
