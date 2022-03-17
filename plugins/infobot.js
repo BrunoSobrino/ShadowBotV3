@@ -1,3 +1,5 @@
+let { MessageType } = require('@adiwajshing/baileys')
+let fs = require('fs')
 let os = require('os')
 let util = require('util')
 let { performance } = require('perf_hooks')
@@ -51,7 +53,6 @@ let handler = async (m, { conn, usedPrefix }) => {
 ╠➥ [🤴🏻] Creador del Bot: *Bruno Sobrino*
 ╠➥ [#️⃣] Numero del creador: *+1 (772) 238-6341*
 ╠➥ [🌐] Navegador: *${conn.browserDescription[1]}*
-╠➥ [✅] version: *${conn.browserDescription[2]}*
 ╠➥ [🎳] Prefijo: *${usedPrefix}*
 ╠➥ [👨‍🦯] Velocidad: *${speed} milisegundos*
 ╠➥ [🔐] Chat Privado: *${chats.length - groups.length}*
@@ -66,7 +67,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ╠
 ╠═〘 *The Shadow Brokers - Bot* 〙 ═
 `.trim() 
-  conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*🔥 THE SHADOW BROKERS - BOT 🔥*', 'status@broadcast')
+conn.sendMessage(m.chat, info, MessageType.text, { quoted: { key: { remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net', fromMe: false }, message: { "imageMessage": { "mimetype": "image/jpeg", "caption": '🔥 THE SHADOW BROKERS - BOT 🔥', "jpegThumbnail": fs.readFileSync(`./Menu2.jpg`)}}}})
 }
 //handler.help = ['ping', 'speed']
 //handler.tags = ['info', 'tools']
