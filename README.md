@@ -11,6 +11,8 @@
 [![Grupo de WhatsApp](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/GvrLSUSzVuT9P17CKfdxDa)
 [![Grupo de WhatsApp](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/HylyPaLc49b9DWF67K8pdc)
 [![Grupo de WhatsApp](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/IW12dLVoyWGHreGpX7rQIw)
+[![Grupo de WhatsApp](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/Ef89aIuOLeD3Fa2sYmKwp7)
+[![Grupo de WhatsApp](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/C2WYb1hiiijCI13QSUZLM9)
 ### `AJUSTES`
 - CAMBIAR NÚMERO DE PROPIETARIO [Aqui](https://github.com/BrunoSobrino/ShadowBotV3/blob/master/config.js)
 
