@@ -67,6 +67,7 @@ let str = `
 ┣ ඬ⃟🕹 _${usedPrefix}ppt_
 ┣ ඬ⃟🎮 _${usedPrefix}prostituta_
 ┣ ඬ⃟🕹 _${usedPrefix}prostituto_
+┣ ඬ⃟🎮 _${usedPrefix}doxear_
 ┣ ඬ⃟📥 _${usedPrefix}imagen_
 ┣ ඬ⃟📥 _${usedPrefix}ytsearch_
 ┣ ඬ⃟📥 _${usedPrefix}dlaudio_
@@ -210,22 +211,28 @@ let str = `
 ┣ ඬ⃟📝️ _${usedPrefix}simpcard_
 ┣ ඬ⃟📝️ _${usedPrefix}hornycard_ 
 ┣ ඬ⃟📝️ _${usedPrefix}lblackpink_
-┣ ඬ⃟📝️ _${usedPrefix}neon_
+┣ ඬ⃟📝️ _${usedPrefix}coffe_
 ┣ ඬ⃟📝️ _${usedPrefix}tahta_
 ┣ ඬ⃟📝️ _${usedPrefix}nulis_
-┣ ඬ⃟📝️ _${usedPrefix}horror_
 ┣ ඬ⃟📝️ _${usedPrefix}nulis2_
 ┣ ඬ⃟📝️ _${usedPrefix}lolice_
 ┣ ඬ⃟📝️ _${usedPrefix}simpcard_
-┣ ඬ⃟📝️ _${usedPrefix}logosky_ 
-┣ ඬ⃟📝️ _${usedPrefix}logocolor_
-┣ ඬ⃟📝️ _${usedPrefix}logogura_ 
-┣ ඬ⃟📝️ _${usedPrefix}logololi_
-┣ ඬ⃟📝️ _${usedPrefix}neonheart_
+┣ ඬ⃟📝️ _${usedPrefix}logotaza_ 
+┣ ඬ⃟📝️ _${usedPrefix}logocesped_ 
+┣ ඬ⃟📝️ _${usedPrefix}logotaza2_ 
+┣ ඬ⃟📝️ _${usedPrefix}flaming_ 
+┣ ඬ⃟📝️ _${usedPrefix}logofire_
+┣ ඬ⃟📝️ _${usedPrefix}logosky_
 ┣ ඬ⃟📝️ _${usedPrefix}logocorazon_
-┣ ඬ⃟📝️ _${usedPrefix}logosad_
-┣ ඬ⃟📝️ _${usedPrefix}logowolf_
-┣ ඬ⃟📝️ _${usedPrefix}logovintage_
+┣ ඬ⃟📝️ _${usedPrefix}logorandom_
+┣ ඬ⃟📝️ _${usedPrefix}neonfire_ 
+┣ ඬ⃟📝️ _${usedPrefix}technology_ 
+┣ ඬ⃟📝️ _${usedPrefix}playa_ 
+┣ ඬ⃟📝️ _${usedPrefix}ytcomment_ 
+┣ ඬ⃟📝️ _${usedPrefix}lovemessages_
+┣ ඬ⃟📝️ _${usedPrefix}cementerio_
+┣ ඬ⃟📝️ _${usedPrefix}romanticdouble_
+┣ ඬ⃟📝️ _${usedPrefix}romanticmessages_
 ┗━━━━━━━━━━━━━┛
 `.trim()
 let mentionedJid = [who]
