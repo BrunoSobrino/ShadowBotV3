@@ -1,12 +1,13 @@
-let fetch = require('node-fetch')
-let handler = async(m, { conn }) => {
-if(m.quoted?.sender) m.mentionedJid.push(m.quoted.sender)
-if(!m.mentionedJid.length) m.mentionedJid.push(m.sender)
+let fetch = require("node-fetch")
+const { sticker } = require('../lib/sticker')
+const { MessageType } = require('@adiwajshing/baileys')
+let handler = async (m, { conn}) => {
+try {
 let res = await fetch('https://api.waifu.pics/sfw/pat')
-if (!res.ok) throw await res.text()
 let json = await res.json()
-if (!json.url) throw 'Error!'
-conn.sendFile(m.chat,json.url,'h.gif',`@${m.sender.split('@')[0]} le dio palmaditas a ${m.mentionedJid.map((user)=>(user === m.sender)? 'alguien ': `@${user.split('@')[0]}`).join(', ')}`,m,false,
-{  contextInfo :{mentionedJid : [  ...m.mentionedJid,m.sender ] }})}
-handler.command = /^pat$/i
+let { url } = json
+let stiker = await sticker(null, url, 'pat', 'The Shadow Brokers - Bot')
+conn.sendMessage(m.chat, stiker, MessageType.sticker, { quoted: m })
+} catch (e) { }}
+handler.command = /^(pat|palmaditas|cariños|mimos)$/i
 module.exports = handler
