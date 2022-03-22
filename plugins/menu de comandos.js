@@ -98,6 +98,7 @@ let menu =`
 ┣ ඬ⃟🕹 _${usedPrefix}ppt *piedra / papel / tijera*_
 ┣ ඬ⃟🎮 _${usedPrefix}prostituta *@tag / nombre*_
 ┣ ඬ⃟🕹 _${usedPrefix}prostituto *@tag / nombre*_
+┣ ඬ⃟🎮 _${usedPrefix}doxear *@tag / nombre*_
 ┗━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━┓
 ┃ *<DESCARGAS/>*
@@ -303,6 +304,7 @@ let menu =`
 ┣ ඬ⃟📝️ _${usedPrefix}neonfire *texto*_ 
 ┣ ඬ⃟📝️ _${usedPrefix}technology *texto*_ 
 ┣ ඬ⃟📝️ _${usedPrefix}playa *texto*_ 
+┣ ඬ⃟📝️ _${usedPrefix}ytcomment *texto*_ 
 ┣ ඬ⃟📝️ _${usedPrefix}lovemessages *texto*_
 ┣ ඬ⃟📝️ _${usedPrefix}cementerio *texto*_
 ┣ ඬ⃟📝️ _${usedPrefix}romanticdouble *texto*_
