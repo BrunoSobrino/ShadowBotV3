@@ -1,6 +1,11 @@
 # **🔥𝗧𝗵𝗲 𝗦𝗵𝗮𝗱𝗼𝘄 𝗕𝗿𝗼𝗸𝗲𝗿𝘀 - 𝗕𝗼𝘁🔥**
 #### ACTIVAR EN HEROKU (FASE EXPERIMENTAL)
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/BrunoSobrino/ShadowBotV3)
+```bash
+> https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
+> https://github.com/clhuang/heroku-buildpack-webp-binaries.git
+> https://github.com/DuckyTeam/heroku-buildpack-imagemagick
+```
 ### `Si necesitas ayuda mandame mensaje`
 <a href="http://wa.me/5219992095479" target="blank"><img src="https://img.shields.io/badge/Whatsapp-30302f?style=flat&logo=whatsapp" /></a>
 > NO BOT
