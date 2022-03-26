@@ -24,16 +24,16 @@ global.APIs = { // API Prefix
   bsbt: 'https://bsbt-api-rest.herokuapp.com',
   zahir: 'https://zahirr-web.herokuapp.com',
   zeks: 'https://api.zeks.me',
-  hardianto: 'https://hardianto-chan.herokuapp.com',
-  pencarikode: 'https://pencarikode.xyz', 
+  hardianto: 'https://hardianto.xyz',
+  pencarikode: 'https://api.chipa.xyz', 
   LeysCoder: 'https://leyscoders-api.herokuapp.com',
   adiisus: 'https://adiixyzapi.herokuapp.com',
   lol: 'https://api.lolhuman.xyz',
   pencarikode: 'https://pencarikode.xyz',
   Velgrynd: 'https://velgrynd.herokuapp.com',
   rey: 'https://server-api-rey.herokuapp.com',
-  hardianto: 'http://hardianto-chan.herokuapp.com',
   shadow: 'https://api.reysekha.xyz',
+  neoxr: 'https://api.neoxr.eu.org',
   apialc: 'https://api-alc.herokuapp.com'
 }
 global.APIKeys = { // APIKey Here
@@ -46,8 +46,9 @@ global.APIKeys = { // APIKey Here
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://bsbt-api-rest.herokuapp.com': 'benniismael',
   'https://api.zeks.me': 'apivinz',
-  'https://hardianto-chan.herokuapp.com': 'hardianto',
-  'https://pencarikode.xyz': 'pais', 
+  'https://hardianto.xyz': 'hardianto',
+  'https://api.neoxr.eu.org': 'yntkts',
+  'https://api.chipa.xyz': 'pais', 
   'https://leyscoders-api.herokuapp.com': 'MIMINGANZ', 
   'https://server-api-rey.herokuapp.com': 'apirey',
   'https://api.lolhuman.xyz': '9b817532fadff8fc7cb86862'
