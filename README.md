@@ -37,7 +37,6 @@
 > pkg install imagemagick -y
 > git clone https://github.com/BrunoSobrino/ShadowBotV3
 > cd ShadowBotV3
-> rm -rf session.data.json 
 > npm install
 > npm install -g npm@8.5.4
 > npm update
