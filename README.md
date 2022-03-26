@@ -10,7 +10,7 @@
 <a href="http://wa.me/5219992095479" target="blank"><img src="https://img.shields.io/badge/Bruno_Sobrino-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
 > NO BOT
 ### `Unete a los grupos oficales para conocer novedades del Bot`
-[![Grupo de WhatsApp](https://img.shields.io/badge/𝕿𝖍𝖊%20𝕾𝖍𝖆𝖉𝖔𝖜%20𝕭𝖗𝖔𝖐𝖊𝖗𝖘%20-%20𝕭𝖔𝖙1-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/JlomZPEgo3bLmzjGUYPfyJ)
+[![Grupo de WhatsApp](https://img.shields.io/badge/𝕿𝖍𝖊%20𝕾𝖍𝖆𝖉𝖔𝖜%20𝕭𝖗𝖔𝖐𝖊𝖗𝖘%20𝕭𝖔𝖙%201-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/JlomZPEgo3bLmzjGUYPfyJ)
 [![Grupo de WhatsApp](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/DbXBmsydWBE1ZN3EoY0hRs)
 [![Grupo de WhatsApp](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/BW0P22xx7EGBTdH5IM851F)
 [![Grupo de WhatsApp](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/CjexkGVr37J6GuSdDVAHzC)
