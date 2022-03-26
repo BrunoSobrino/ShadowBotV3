@@ -7,7 +7,7 @@
 > https://github.com/DuckyTeam/heroku-buildpack-imagemagick
 ```
 ### `Si necesitas ayuda mandame mensaje`
-<a href="http://wa.me/5219992095479" target="blank"><img src="https://img.shields.io/badge/Whatsapp-30302f?style=flat&logo=whatsapp" /></a>
+<a href="http://wa.me/5219992095479" target="blank"><img src="https://img.shields.io/badge/Bruno_Sobrino-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
 > NO BOT
 ### `Unete a los grupos oficales para conocer novedades del Bot`
 [![Grupo de WhatsApp](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/JlomZPEgo3bLmzjGUYPfyJ)
