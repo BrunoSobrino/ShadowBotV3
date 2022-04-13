@@ -1,16 +1,17 @@
 let fetch = require('node-fetch')
 
 let handler = async (m, { conn }) => {
-	let url = pack[Math.floor(Math.random() * pack.length)]
-	await conn.sendMessage(m.chat, {
-		contentText: '*_©The Shadow Brokers - Bot_*',
-		footerText: 'Agradecimientos a Bot tiburón',
-		buttons: [
-			{ buttonId: '.pack', buttonText: { displayText: 'SIGUIENTE' }, type: 1 }
-		],
-		headerType: 4,
-		imageMessage: (await conn.prepareMessageMedia(await (await fetch(url)).buffer(), 'imageMessage', {})).imageMessage
-	}, 'buttonsMessage', { quoted: m })
+if (!DATABASE._data.chats[m.chat].nsfw && m.isGroup) throw '*[ ⚠️ ] Los comandos +18 estan desactivados en este grupo, si es administrador de este grupo y desea activarlos escriba #enable nsfw*'
+let url = pack[Math.floor(Math.random() * pack.length)]
+await conn.sendMessage(m.chat, {
+contentText: '*_©The Shadow Brokers - Bot_*',
+footerText: 'Agradecimientos a Bot tiburón',
+buttons: [
+{ buttonId: '.pack', buttonText: { displayText: 'SIGUIENTE' }, type: 1 }
+],
+headerType: 4,
+imageMessage: (await conn.prepareMessageMedia(await (await fetch(url)).buffer(), 'imageMessage', {})).imageMessage
+}, 'buttonsMessage', { quoted: m })
 }
 handler.command = /^(pack)$/i
 handler.tags = ['internet']
