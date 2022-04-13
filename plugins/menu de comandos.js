@@ -118,9 +118,7 @@ let menu =`
 ┣ ඬ⃟📥 _${usedPrefix}googlef *texto*_
 ┣ ඬ⃟📥 _${usedPrefix}wikipedia *palabra clave*_
 ┣ ඬ⃟📥 _${usedPrefix}pinterestvideo *link de pinterest*_
-┣ ඬ⃟📥 _${usedPrefix}tiktokaudio *link del tiktok*_
 ┣ ඬ⃟📥 _${usedPrefix}tiktok *link*_
-┣ ඬ⃟📥 _${usedPrefix}spotify *autor, cancion*_
 ┣ ඬ⃟📥 _${usedPrefix}acortar *link*_
 ┣ ඬ⃟📥 _${usedPrefix}pinterest *texto*_
 ┣ ඬ⃟📥 _${usedPrefix}xnxx *link de xnxx*_
