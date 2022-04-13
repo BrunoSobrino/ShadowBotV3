@@ -103,6 +103,8 @@ let str = `
 ┣ ඬ⃟💎 _${usedPrefix}daradmin_
 ┣ ඬ⃟💎 _${usedPrefix}quitaradmin_
 ┣ ඬ⃟💎 _${usedPrefix}grupo abrir/cerrar_
+┣ ඬ⃟💎 _${usedPrefix}enable nsfw_
+┣ ඬ⃟💎 _${usedPrefix}disable nsfw_
 ┣ ඬ⃟💎 _${usedPrefix}enable welcome_
 ┣ ඬ⃟💎 _${usedPrefix}disable welcome_
 ┣ ඬ⃟💎 _${usedPrefix}enable antilink_
