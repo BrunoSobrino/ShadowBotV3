@@ -1,15 +1,15 @@
 global.DeveloperMode = 'false' //true Or false
 global.linkGC = ['https://chat.whatsapp.com/JlomZPEgo3bLmzjGUYPfyJ' , 'https://chat.whatsapp.com/DbXBmsydWBE1ZN3EoY0hRs' , 'https://chat.whatsapp.com/BW0P22xx7EGBTdH5IM851F' , 'https://chat.whatsapp.com/FwEUGxkvZD85fIIp0gKyFC' , 'https://chat.whatsapp.com/H7NUXdrGlFg20ae3bqgwlb'] // No tiene utilidad 
 global.channelYT = ['https://www.youtube.com/channel/UCSTDMKjbm-EmEovkygX-lCA'] // No tiene utilidad
-global.owner = ['17722386341'] // Cambia los numeros por tu o tus numeros a los cuales te comtactaran y gestionaras el Bot
-global.mods = ['5219991402134'] // No tiene utilidad
-global.prems = ['5219996125657' , '5219992095479', '972557048356'] // Podra usar algunos comandos del apartado de propietario
+global.owner = ['17722386341'] //Cambia los numeros por tu o tus numeros a los cuales te comtactaran y gestionaras el Bot
+global.mods = ['5219991402134'] //No tiene utilidad
+global.prems = ['5219996125657' , '5219992095479', '972557048356'] //Podra usar algunos comandos del apartado de propietario
 
 //Lo siguiente no tiene nada que ver con el funcionamiento del Bot:
-// Nota: Puedes contactarme si necesitas ayuda con algo al +5219996125657 (este es mi numero personal/real bloqueo personas que no sean temas de la instalación)
-// => Solo dudas sobre la instalación, temas generales contactarme al +17722386341 o al +5219992095479
-// => NO ayudo a hacer Bots, ni crearlos, ni editarlos 
-// - Haré tutoriales de como editar el Bot, los videos los podran encontrar en mi canal de YouTube en https://www.youtube.com/channel/UCSTDMKjbm-EmEovkygX-lCA
+//Nota: Puedes contactarme si necesitas ayuda con algo al +5219996125657 (este es mi numero personal/real bloqueo personas que no sean temas de la instalación)
+//=> Solo dudas sobre la instalación, temas generales contactarme al +17722386341 o al +5219992095479
+//=> NO ayudo a hacer Bots, ni crearlos, ni editarlos 
+//- Haré tutoriales de como editar el Bot, los videos los podran encontrar en mi canal de YouTube en https://www.youtube.com/channel/UCSTDMKjbm-EmEovkygX-lCA
 
 global.APIs = { // API Prefix
   // name: 'https://website'
