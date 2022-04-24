@@ -9,7 +9,7 @@
 [![Grupo de WhatsApp](https://img.shields.io/badge/GRUPO_OFICIAL_4-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/CjexkGVr37J6GuSdDVAHzC)
 [![Grupo de WhatsApp](https://img.shields.io/badge/GRUPO_OFICIAL_5-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/H7NUXdrGlFg20ae3bqgwlb)
 [![Grupo de WhatsApp](https://img.shields.io/badge/GRUPO_OFICIAL_6-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/GvrLSUSzVuT9P17CKfdxDa)
-[![Grupo de WhatsApp](https://img.shields.io/badge/GRUPO_OFICIAL_7-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/HylyPaLc49b9DWF67K8pdc)
+[![Grupo de WhatsApp](https://img.shields.io/badge/GRUPO_OFICIAL_7-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/EpzuymKm6lG08k6J2Dwx7F)
 [![Grupo de WhatsApp](https://img.shields.io/badge/GRUPO_OFICIAL_8-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/IW12dLVoyWGHreGpX7rQIw)
 [![Grupo de WhatsApp](https://img.shields.io/badge/GRUPO_OFICIAL_9-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/Ef89aIuOLeD3Fa2sYmKwp7)
 [![Grupo de WhatsApp](https://img.shields.io/badge/GRUPO_OFICIAL_10-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/C2WYb1hiiijCI13QSUZLM9)
