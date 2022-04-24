@@ -47,7 +47,7 @@ let str = `
 ° ඬ⃟🔊 _Es puto_
 ° ඬ⃟🔊 _La biblia_
 ° ඬ⃟🔊 _Onichan_
-° ඬ⃟🔊 _Bot puto_
+° ඬ⃟🔊 _Mierda de Bot_
 ° ඬ⃟🔊 _Shadow Bot_
 ° ඬ⃟🔊 _Siuuu_
 ° ඬ⃟🔊 _Rawr_

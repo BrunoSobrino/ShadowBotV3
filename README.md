@@ -9,7 +9,7 @@
 [![Grupo de WhatsApp](https://img.shields.io/badge/GRUPO_OFICIAL_4-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/CjexkGVr37J6GuSdDVAHzC)
 [![Grupo de WhatsApp](https://img.shields.io/badge/GRUPO_OFICIAL_5-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/H7NUXdrGlFg20ae3bqgwlb)
 [![Grupo de WhatsApp](https://img.shields.io/badge/GRUPO_OFICIAL_6-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/GvrLSUSzVuT9P17CKfdxDa)
-[![Grupo de WhatsApp](https://img.shields.io/badge/GRUPO_OFICIAL_7-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/HylyPaLc49b9DWF67K8pdc)
+[![Grupo de WhatsApp](https://img.shields.io/badge/GRUPO_OFICIAL_7-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/EpzuymKm6lG08k6J2Dwx7F)
 [![Grupo de WhatsApp](https://img.shields.io/badge/GRUPO_OFICIAL_8-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/IW12dLVoyWGHreGpX7rQIw)
 [![Grupo de WhatsApp](https://img.shields.io/badge/GRUPO_OFICIAL_9-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/Ef89aIuOLeD3Fa2sYmKwp7)
 [![Grupo de WhatsApp](https://img.shields.io/badge/GRUPO_OFICIAL_10-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/C2WYb1hiiijCI13QSUZLM9)
@@ -30,7 +30,7 @@
 > git clone https://github.com/BrunoSobrino/ShadowBotV3
 > cd ShadowBotV3
 > npm install
-> npm install -g npm@8.5.4
+> npm install -g npm@8.7.0
 > npm update
 > npm start
 ```
@@ -54,7 +54,7 @@ config.js
 repositorio del Bot (tu GitHub), puedes usar 
 el comando #actualizar para que se actualicen los datos
 
-> Aconsejable maximo 40 grupos, despues 
+> Aconsejable maximo 30 grupos, despues 
 de esa cantidad el Bot empieza a ir 
 excesivamente lento (depende del WhatsApp igual)
 ```
