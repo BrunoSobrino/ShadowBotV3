@@ -111,7 +111,9 @@ let menu =`
 ┣ ඬ⃟📥 _${usedPrefix}ytmp3.2 *link yt*_
 ┣ ඬ⃟📥 _${usedPrefix}ytmp4.2 *link yt*_
 ┣ ඬ⃟📥 _${usedPrefix}play *titulo del audio*_
+┣ ඬ⃟📥 _${usedPrefix}play.1 *titulo del audio*_
 ┣ ඬ⃟📥 _${usedPrefix}play2 *titulo del video*_
+┣ ඬ⃟📥 _${usedPrefix}play.2 *titulo del video*_
 ┣ ඬ⃟📥 _${usedPrefix}play3 *titulo del audio/video*_
 ┣ ඬ⃟📥 _${usedPrefix}play4 *titulo del video*_
 ┣ ඬ⃟📥 _${usedPrefix}letra *nombredelacanción*_
