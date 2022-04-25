@@ -108,6 +108,7 @@ let menu =`
 ┣ ඬ⃟📥 _${usedPrefix}dlvid *link yt*_
 ┣ ඬ⃟📥 _${usedPrefix}ytmp3 *link yt*_
 ┣ ඬ⃟📥 _${usedPrefix}ytmp4 *link yt*_
+┣ ඬ⃟📥 _${usedPrefix}ytmp3.2 *link yt*_
 ┣ ඬ⃟📥 _${usedPrefix}ytmp4.2 *link yt*_
 ┣ ඬ⃟📥 _${usedPrefix}play *titulo del audio*_
 ┣ ඬ⃟📥 _${usedPrefix}play2 *titulo del video*_
