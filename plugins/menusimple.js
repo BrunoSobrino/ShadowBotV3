@@ -74,6 +74,7 @@ let str = `
 ┣ ඬ⃟📥 _${usedPrefix}dlvid_
 ┣ ඬ⃟📥 _${usedPrefix}ytmp3_
 ┣ ඬ⃟📥 _${usedPrefix}ytmp4_
+┣ ඬ⃟📥 _${usedPrefix}ytmp3.2_
 ┣ ඬ⃟📥 _${usedPrefix}ytmp4.2_
 ┣ ඬ⃟📥 _${usedPrefix}play_
 ┣ ඬ⃟📥 _${usedPrefix}play2_
