@@ -1,4 +1,7 @@
 # **🔥 𝗧𝗵𝗲 𝗦𝗵𝗮𝗱𝗼𝘄 𝗕𝗿𝗼𝗸𝗲𝗿𝘀 - 𝗕𝗼𝘁 🔥**
+
+## El Bot ya no recibira mas actualizaciones
+
 ### `NECESITAS AYUDA?, CONTACTAME`
 <a href="http://wa.me/5219992095479" target="blank"><img src="https://img.shields.io/badge/BRUNO_SOBRINO-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
 > NO BOT
